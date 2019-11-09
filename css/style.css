@@ -41,10 +41,7 @@ h2{
 h3{
   font-size: 1em;
   text-align: center;
-  padding: 5px;
   background: lightgray;
-  opacity: 50%;
-  border-bottom: 3px solid darkred;
 }
 p {
   padding-top: 10px;
@@ -53,6 +50,9 @@ p {
   padding-right:15px;
   background-color: lightgray;
 
+}
+form{
+  background-color: lightgray;
 }
 
 .skipcont a{
@@ -74,9 +74,6 @@ p {
   border: 2px solid black;
 }
 
-#navigation li a.current{
-  color: darkred
-}
 .contact {
   background-color: lightgray;
   text-align: center;
@@ -105,21 +102,6 @@ footer{
     font-size: 1.5em;
     text-align: center;
     line-height: 2;
-  }
-  h2{
-    font-size: 1em;
-    text-align: center;
-    padding: 5px;
-    background: lightgray;
-    border-bottom: 3px solid darkred;
-  }
-  h3{
-    font-size: .75em;
-    text-align: center;
-    padding: 5px;
-    background: lightgray;
-    opacity: 50%;
-    border-bottom: 3px solid darkred;
   }
 
   /* Sections */
