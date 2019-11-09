@@ -12,16 +12,13 @@
     <main>
     <div class="skipcont"><a href="#skip">Skip to Main Content</a></div>
     <div class="navi" id = "navigation">
-      <nav>
         <ul class="nav-links">
-          <li class="nav-item"><a href="#home">Home</a></li>
-          <li class="nav-item"><a href="#places">Places</a></li>
-          <li class="nav-item"><a href="#people">People (and dogs)</a></li>
-          <li class="nav-item"><a href="#food">Food</a></li>
-          <li class="nav-item"><a href="#contact">Contact</a></li>
-
+          <li class="nav-item"><a href="#home" aria-label = "Home Page">Home</a></li>
+          <li class="nav-item"><a href="#places" aria-label = "Places">Places</a></li>
+          <li class="nav-item"><a href="#people" aria-label = "People">People (and dogs)</a></li>
+          <li class="nav-item"><a href="#food" aria-label = "Food">Food</a></li>
+          <li class="nav-item"><a href="#contact" aria-label = "Contact">Contact</a></li>
         </ul>
-      </nav>
     </div>
     <div>
     <h1>My Summer in South Korea</h1>
@@ -32,56 +29,62 @@ My name is Benjamin Sutton and I am here to tell you about my summer to Seoul, S
 Enjoy!
 </p>
     </div>
-    <a name="places"></a>
+    <a name="places" aria-label = "Places"></a>
     <h2>Places</h2>
     <p>
       I loved visiting all the landmarks in Seoul. It was so great to just explore and find places that are hidden and special as well as the main tourist spots too. I also went to the DMZ which was a really great experience and very eye opening to what the country went through in the Korean War.
-
     </p>
 
       <div class="places">
-        <a href="images/Places/ToweratNight.jpg">
+        <a href="images/Places/ToweratNight.jpg" aria-label = "Dog Sitting Down">
           <img id = "image1" src="images/Places/ToweratNight.jpg" alt="Dog Sitting Down">
         </a>
-        <a href="images/Places/FortressTowerSlot.jpg">
-          <img id="image2" src="images/Places/FortressTowerSlot.jpg" alt="French Bulldog" />
+        <a href="images/Places/FortressTowerSlot.jpg" aria-label = "French Bulldog">
+          <img id="image2" src="images/Places/FortressTowerSlot.jpg" alt="French Bulldog">
         </a>
-        <a href = "images/Places/FoodMarket.jpg">
-          <img id="image3" src="images/Places/FoodMarket.jpg" alt="Soldier Standing by Blue Buildings" />
+        <a href = "images/Places/FoodMarket.jpg" aria-label = "Soldier Standing by Blue Buildings">
+          <img id="image3" src="images/Places/FoodMarket.jpg" alt="Soldier Standing by Blue Buildings">
         </a>
       </div>
-      <a name="people"></a>
+      <a name="people" aria-label = "People"></a>
       <h2>People(and Dogs)</h2>
       <p>
       This is a selection of some of the people who let me take their pictures and of several of the dogs I got to meet. I am a very people oriented person and love meeting new people, so this trip allowed me to do that everyday with my travels. I also got to meet a lot of their dogs while I was walking around the city and you will see that the dogs were very nice and liked getting their pictures taken!
 
       </p>
-        <div class="people"> <!-- add own photos BUT NEED ID, alt tag! -->
-          <a href="images/People/BerneseMtnDog.jpg">
+        <div class="people" role = "img"> <!-- add own photos BUT NEED ID, alt tag! -->
+          <a href="images/People/BerneseMtnDog.jpg" aria-label = "Dog Sitting Down">
             <img id = "image1" src="images/People/BerneseMtnDog.jpg" alt="Dog Sitting Down">
           </a>
-          <a href="images/People/BlackFrenchBulldog.jpg">
-            <img id="image2" src="images/People/BlackFrenchBulldog.jpg" alt="French Bulldog" />
+          <a href = "images/People/DMZSoldier.jpg" aria-label = "Soldier Standing by Blue Buildings">
+            <img id="image2" src="images/People/DMZSoldier.jpg" alt="Soldier Standing by Blue Buildings">
           </a>
-          <a href = "images/People/DMZSoldier.jpg">
-            <img id="image3" src="images/People/DMZSoldier.jpg" alt="Soldier Standing by Blue Buildings" />
+          <a href="images/People/BlackFrenchBulldog.jpg" aria-label = "French Bulldog">
+            <img id="image3" src="images/People/BlackFrenchBulldog.jpg" alt="French Bulldog">
           </a>
+
         </div>
 
-        <a name="food"></a>
+        <a name="food" aria-label = "Food"></a>
         <h2>Food</h2>
         <p>
           The food in Korea was absolutely amazing and a reason I will want to go back for sure. Seoul is such a great food city where you are constantly finding new places to eat and explore. My favorite dishes were Bibimbop and Bugolgi but also there were lots of other ethnic dishes from other countries I had which were amazing.
 
         </p>
-          <div class="food">
-            <img id="image1" src="images/sample.jpg" alt="decoration" />
-            <img id="image2" src="images/sample.jpg" alt="decoration" />
-            <img id="image3" src="images/sample.jpg" alt="decoration" />
-            <img id="image4" src="images/sample.jpg" alt="decoration" />
-            <img id="image5" src="images/sample.jpg" alt="decoration" />
+          <div class="food" role = "img">
+
+            <a href= "images/Food/BulgogiandSides.jpg" aria-label = "Bulgogi and Sides">
+              <img id="image1" src="images/Food/BulgogiandSides.jpg" alt="Bulgogi and Sides">
+            </a>
+            <a href= "images/Food/BibimbopandEgg.jpg" aria-label = "Bibimbop and Egg">
+              <img id="image2" src="images/Food/BibimbopandEgg.jpg" alt="Bibimbop and Egg">
+            </a>
+            <a href= "images/Food/KoreanFriedChicken.jpg" aria-label = "Korean Fried Chicken">
+              <img id="image3" src="images/Food/KoreanFriedChicken.jpg" alt="Korean Fried Chicken">
+            </a>
           </div>
-          <a name="contact"></a>
+
+          <a name="contact" aria-label = "Contact"></a>
           <div class="contact">
           <h2>Contact Me</h2>
             <form name="contact" action="mailto:bwsutton@umich.edu" onsubmit="return validateForm()" method="post" enctype="text/plain">
@@ -114,8 +117,8 @@ Enjoy!
     <footer>
       <a name="home"></a>
       <p>University of Michigan School of Information <br/>
-        &copy; Colleen van Lent, Drew Asselin, Benjamin Sutton - Web Design 2019-2020</p>
-        <class="nav-item"><a href="#home">Back to Top</a>
+        &copy; Benjamin Sutton - Web Design Portfolio 2019-2020</p>
+        <class="nav-item"><a href="#home" aria-label = "Home Page">Back to Top</a>
     </footer>
   </main>
   </body>
