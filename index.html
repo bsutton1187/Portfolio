@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <div class="skipcont"><a href="#skip">Skip to Main Content</a></div>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200&display=swap" rel="stylesheet">
@@ -10,25 +10,30 @@
     <title>My Trip to Seoul South Korea</title>
   </head>
   <body>
-    <main>
+    <div class="skipcont"><a href="#main">Skip to Main Content</a></div>
     <div class="navi" id = "navigation">
         <ul class="nav-links">
           <li class="nav-item"><a href="#home" aria-label = "Home Page">Home</a></li>
           <li class="nav-item"><a href="#places" aria-label = "Places">Places</a></li>
-          <li class="nav-item"><a href="#people" aria-label = "People">People (and dogs)</a></li>
+          <li class="nav-item"><a href="#people" aria-label = "People">People</a></li>
           <li class="nav-item"><a href="#food" aria-label = "Food">Food</a></li>
           <li class="nav-item"><a href="#contact" aria-label = "Contact">Contact</a></li>
         </ul>
     </div>
     <div>
+
     <h1>My Summer in South Korea</h1>
+
+    <header id = "main">
     <p>Hello!
 
 My name is Benjamin Sutton and I am here to tell you about my summer to Seoul, South Korea with the University of Michigan, School of Information. This is my second trip to Korea actually with the first trip being for vacation in 2015 for Christmas. On that trip I only got to spend 24 hours in Seoul so this trip was a lot more fun time spent in the city. You will see this trip through the foods I ate, the places I visited, and the people (and their dogs) I got to meet. This trip was an amazing experience and I hope you gain some more information that is the great city of Seoul, and the country of South Korea.
 
 Enjoy!
 </p>
+</header>
     </div>
+    <main id="content" class="content">
     <a name="places" aria-label = "Places"></a>
     <h2>Places</h2>
     <p>
@@ -37,13 +42,13 @@ Enjoy!
 
       <div class="places">
         <a href="images/Places/ToweratNight.jpg" aria-label = "Blue Tower at Night">
-          <img id = "image1" src="images/Places/ToweratNight.jpg" alt="Blue Tower at Night">
+          <img id = "Tower" src="images/Places/ToweratNight.jpg" alt="Blue Tower at Night">
         </a>
         <a href="images/Places/FortressTowerSlot.jpg" aria-label = "Fortress veiwed from Wall">
-          <img id="image2" src="images/Places/FortressTowerSlot.jpg" alt="Fortress veiwed from Wall">
+          <img id="Fortress" src="images/Places/FortressTowerSlot.jpg" alt="Fortress veiwed from Wall">
         </a>
         <a href = "images/Places/FoodMarket.jpg" aria-label = "Food Market">
-          <img id="image3" src="images/Places/FoodMarket.jpg" alt="Food Market">
+          <img id="Market" src="images/Places/FoodMarket.jpg" alt="Food Market">
         </a>
       </div>
       <a name="people" aria-label = "People" alt = "people"></a>
@@ -54,13 +59,13 @@ Enjoy!
       </p>
         <div class="people"> <!-- add own photos BUT NEED ID, alt tag! -->
           <a href="images/People/BerneseMtnDog.jpg" aria-label = "Large Dog Sitting Down">
-            <img id = "image1" src="images/People/BerneseMtnDog.jpg" alt="Large Dog Sitting Down">
+            <img id = "Large Dog" src="images/People/BerneseMtnDog.jpg" alt="Large Dog Sitting Down">
           </a>
           <a href = "images/People/DMZSoldier.jpg" aria-label = "Soldier Standing by Blue Buildings">
-            <img id="image2" src="images/People/DMZSoldier.jpg" alt="Soldier Standing by Blue Buildings">
+            <img id="Soldier" src="images/People/DMZSoldier.jpg" alt="Soldier Standing by Blue Buildings">
           </a>
           <a href="images/People/BlackFrenchBulldog.jpg" aria-label = "French Bulldog">
-            <img id="image3" src="images/People/BlackFrenchBulldog.jpg" alt="French Bulldog">
+            <img id="Bulldog" src="images/People/BlackFrenchBulldog.jpg" alt="French Bulldog">
           </a>
 
         </div>
@@ -74,13 +79,13 @@ Enjoy!
           <div class="food">
 
             <a href= "images/Food/BulgogiandSides.jpg" aria-label = "Bulgogi and Sides">
-              <img id="image1" src="images/Food/BulgogiandSides.jpg" alt="Bulgogi and Sides">
+              <img id="Bulgogi" src="images/Food/BulgogiandSides.jpg" alt="Bulgogi and Sides">
             </a>
             <a href= "images/Food/BibimbopandEgg.jpg" aria-label = "Bibimbop and Egg">
-              <img id="image2" src="images/Food/BibimbopandEgg.jpg" alt="Bibimbop and Egg">
+              <img id="Bibimbop" src="images/Food/BibimbopandEgg.jpg" alt="Bibimbop and Egg">
             </a>
             <a href= "images/Food/KoreanFriedChicken.jpg" aria-label = "Korean Fried Chicken">
-              <img id="image3" src="images/Food/KoreanFriedChicken.jpg" alt="Korean Fried Chicken">
+              <img id="Chicken" src="images/Food/KoreanFriedChicken.jpg" alt="Korean Fried Chicken">
             </a>
           </div>
 
